@@ -385,7 +385,7 @@
       <a href="#features">Features</a>
       <a href="#modules">Modules</a>
       <a href="#download">Download</a>
-      <a href="https://github.com/phantomx" target="_blank">GitHub</a>
+      <a href="https://github.com/noahsantosskk-alt/phantomx-tools" target="_blank">GitHub</a>
     </div>
     <a href="#download" class="btn btn-primary">Download Toolkit →</a>
   </div>
@@ -404,7 +404,7 @@
     </p>
     <div class="hero-actions" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
       <a href="#download" class="btn btn-primary">⚡ Download PhantomX</a>
-      <a href="https://github.com/PhantomX/phantomx-tools" class="btn btn-outline">GitHub source</a>
+      <a href="https://github.com/noahsantosskk-alt/phantomx-tools" class="btn btn-outline">GitHub source</a>
       <a href="#modules" class="btn btn-outline">Explore modules</a>
     </div>
 
@@ -537,17 +537,19 @@
           <div class="kv-row"><span>License</span><span>MIT + educational purpose</span></div>
         </div>
         <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
-          <a href="#" class="btn btn-primary" id="downloadBtn">📥 Download PhantomX.zip</a>
-          <a href="https://github.com/PhantomX/phantomx-tools" class="btn btn-outline">📁 GitHub repository</a>
+          <!-- Download do arquivo phantomx.py diretamente do raw -->
+          <a href="https://raw.githubusercontent.com/noahsantosskk-alt/phantomx-tools/refs/heads/main/phantomx.py" download="phantomx.py" class="btn btn-primary">📥 Download phantomx.py</a>
+          <!-- Download do repositório completo como ZIP -->
+          <a href="https://github.com/noahsantosskk-alt/phantomx-tools/archive/refs/heads/main.zip" class="btn btn-outline">📦 Download repo (ZIP)</a>
         </div>
       </div>
       <div class="download-card glass-card">
         <h3 style="margin-bottom: 1rem;">🛠️ Resources & docs</h3>
         <ul style="list-style: none; margin-top: 0.5rem;">
-          <li><a href="#" style="color:#bfc9db;">📘 Wiki & module examples</a></li>
-          <li><a href="#" style="color:#bfc9db;">🐞 Report issue / feature request</a></li>
+          <li><a href="https://github.com/noahsantosskk-alt/phantomx-tools/blob/main/README.md" target="_blank" style="color:#bfc9db;">📘 Wiki & module examples</a></li>
+          <li><a href="https://github.com/noahsantosskk-alt/phantomx-tools/issues" target="_blank" style="color:#bfc9db;">🐞 Report issue / feature request</a></li>
           <li><a href="#" style="color:#bfc9db;">💬 Discord community (grey channel)</a></li>
-          <li><a href="#" style="color:#bfc9db;">📜 ChangeLog and updates</a></li>
+          <li><a href="https://github.com/noahsantosskk-alt/phantomx-tools/commits/main/" target="_blank" style="color:#bfc9db;">📜 ChangeLog and updates</a></li>
         </ul>
         <p style="margin-top: 1.5rem; font-size: 0.85rem; color: #8b98af;">PhantomX is intended for authorized security assessments only. Use responsibly.</p>
       </div>
@@ -564,29 +566,25 @@
     <div class="footer-col">
       <h4>Product</h4>
       <a href="#download">Download</a>
-      <a href="#">Changelog</a>
+      <a href="https://github.com/noahsantosskk-alt/phantomx-tools/commits/main/">Changelog</a>
       <a href="#">Roadmap</a>
     </div>
     <div class="footer-col">
       <h4>Community</h4>
       <a href="#">Discord</a>
-      <a href="#">GitHub</a>
+      <a href="https://github.com/noahsantosskk-alt/phantomx-tools">GitHub</a>
       <a href="#">Telegram</a>
     </div>
     <div class="footer-col">
       <h4>Legal</h4>
       <a href="#">Disclaimer</a>
-      <a href="#">License (MIT)</a>
+      <a href="https://github.com/noahsantosskk-alt/phantomx-tools/blob/main/LICENSE">License (MIT)</a>
     </div>
   </div>
   <div class="copy">© PhantomX — 2026. Grey aesthetics, unlimited possibilities.</div>
 </footer>
 
 <script>
-  document.getElementById('downloadBtn')?.addEventListener('click', (e) => {
-    e.preventDefault();
-    alert("Simulated download — PhantomX toolkit would be packed. Real GitHub repo: https://github.com/PhantomX/phantomx-tools");
-  });
   // smooth anchor scroll
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
